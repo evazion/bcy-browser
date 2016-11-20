@@ -12,3 +12,6 @@
 
 // Disable login nag messages.
 Auth.unLogin = () => false;
+
+// Disable opening links in new tabs.
+$('[target="_blank"]').attr("target", "");
